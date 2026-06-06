@@ -8,18 +8,27 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/hello_world' }
+      { text: '语法', link: '/guide/hello_world' },
+      { text: '原理', link: '/guide/memory' }
     ],
-    sidebar: [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Hello, World', link: '/guide/hello_world' },
-          { text: '定义变量', link: '/guide/variables' },
-          { text: '字符串', link: '/guide/strings' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/guide/': [
+        {
+          text: '语法',
+          items: [
+            { text: 'Hello, World', link: '/guide/hello_world' },
+            { text: '定义变量', link: '/guide/variables' },
+            { text: '字符串', link: '/guide/strings' }
+          ]
+        },
+        {
+          text: '原理',
+          items: [
+            { text: '内存', link: '/guide/memory' }
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Huauauaa/hi-rust' }
     ]

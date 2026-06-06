@@ -2,6 +2,11 @@ node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 
+# HyperFrames video project (source tracked; deps & render output ignored)
+rust-memory/node_modules/
+rust-memory/renders/
+rust-memory/package-lock.json
+
 # Rust build artifacts
 /target/
 rustc*/
