@@ -13,3 +13,5 @@ rustc*/
 
 # `rustc hello_world.rs` → executable with the same basename (no extension)
 /hello_world
+/variables
+/strings
