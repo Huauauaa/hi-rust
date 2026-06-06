@@ -8,13 +8,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/getting-started' }
+      { text: 'Guide', link: '/guide/hello_world' }
     ],
     sidebar: [
       {
         text: 'Guide',
         items: [
-          { text: 'Getting Started', link: '/guide/getting-started' }
+          { text: 'Hello, World', link: '/guide/hello_world' }
         ]
       }
     ],

@@ -1,3 +1,15 @@
 node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+# Rust build artifacts
+/target/
+rustc*/
+/build/
+*.exe
+*.o
+*.pdb
+*.dSYM/
+
+# `rustc hello_world.rs` → executable with the same basename (no extension)
+/hello_world
