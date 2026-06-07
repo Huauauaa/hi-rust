@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 原理
       link: /guide/memory
+    - theme: alt
+      text: 规范
+      link: /spec/naming
 
 features:
   - title: 语法
@@ -20,4 +23,7 @@ features:
   - title: 原理
     details: 所有权、借用、栈与堆等核心概念，配合讲解视频。
     link: /guide/memory
+  - title: 规范
+    details: 命名、代码风格等社区约定与最佳实践。
+    link: /spec/naming
 ---

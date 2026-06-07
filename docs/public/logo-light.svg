@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" role="img" aria-label="hi-rust">
+  <path
+    d="M14 1.5 24.5 7.5v12L14 25.5 3.5 19.5v-12L14 1.5Z"
+    fill="url(#hi-rust-hex-light)"
+  />
+  <path
+    d="M9.5 10v9M9.5 14.5h5M14.5 10v9"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="21.5" cy="10" r="2.2" fill="#DE4F2A" />
+  <defs>
+    <linearGradient id="hi-rust-hex-light" x1="3.5" y1="1.5" x2="24.5" y2="25.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#646CFF" />
+      <stop offset="1" stop-color="#3451B2" />
+    </linearGradient>
+  </defs>
+</svg>

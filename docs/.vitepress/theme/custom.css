@@ -1,0 +1,41 @@
+/* Prevent flash before GSAP applies initial from() state on home hero */
+.VPHome .VPHero .name,
+.VPHome .VPHero .text,
+.VPHome .VPHero .tagline,
+.VPHome .VPHero .actions .action,
+.VPHome .VPFeature .box {
+  will-change: transform, opacity, filter;
+}
+
+.VPHome .VPHero .name {
+  transform-origin: center bottom;
+}
+
+.VPHome .VPHero .actions .action {
+  transform-origin: center center;
+}
+
+.VPHome .VPFeature .box {
+  transform-origin: center bottom;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPHome .VPHero .name,
+  .VPHome .VPHero .text,
+  .VPHome .VPHero .tagline,
+  .VPHome .VPHero .actions .action,
+  .VPHome .VPFeature .box {
+    will-change: auto;
+  }
+}
+
+/* Nav logo — override VitePress default (24px) */
+:root {
+  --vp-nav-logo-height: 40px;
+}
+
+.VPNavBarTitle .logo {
+  height: 40px;
+  width: auto;
+  margin-right: 0;
+}
