@@ -18,7 +18,8 @@ export default defineConfig({
           items: [
             { text: 'Hello, World', link: '/guide/hello_world' },
             { text: '定义变量', link: '/guide/variables' },
-            { text: '字符串', link: '/guide/strings' }
+            { text: '字符串', link: '/guide/strings' },
+            { text: '运算符', link: '/guide/operators' }
           ]
         },
         {
