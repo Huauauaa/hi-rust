@@ -6,6 +6,8 @@ const sidebarItems = [
     items: [
       { text: 'Hello, World', link: '/guide/hello_world' },
       { text: '定义变量', link: '/guide/variables' },
+      { text: '元组', link: '/guide/tuples' },
+      { text: '数组', link: '/guide/arrays' },
       { text: '字符串', link: '/guide/strings' },
       { text: '运算符', link: '/guide/operators' },
       { text: '条件判断', link: '/guide/conditionals' },
