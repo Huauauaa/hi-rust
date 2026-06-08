@@ -9,6 +9,8 @@ const sidebarItems = [
       { text: '元组', link: '/guide/tuples' },
       { text: '数组', link: '/guide/arrays' },
       { text: '字符串', link: '/guide/strings' },
+      { text: '所有权和移动', link: '/guide/ownership' },
+      { text: '借用', link: '/guide/borrowing' },
       { text: '运算符', link: '/guide/operators' },
       { text: '条件判断', link: '/guide/conditionals' },
       { text: '循环', link: '/guide/loops' },
