@@ -4,7 +4,6 @@ const TARGETS = [
   '.VPHero .name',
   '.VPHero .text',
   '.VPHero .tagline',
-  '.VPHero .actions .action',
   '.VPFeature .box'
 ] as const
 
@@ -61,19 +60,6 @@ export function initHomeHero(): void {
         clearProps: 'filter'
       },
       '-=0.5'
-    )
-    .fromTo(
-      '.VPHero .actions .action',
-      { scale: 0, autoAlpha: 0 },
-      {
-        scale: 1,
-        autoAlpha: 1,
-        duration: 0.65,
-        ease: 'back.out(2.2)',
-        stagger: 0.14,
-        transformOrigin: 'center center'
-      },
-      '-=0.45'
     )
     .fromTo(
       '.VPFeature .box',
