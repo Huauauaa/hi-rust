@@ -77,7 +77,7 @@ enum Maybe<T> {
 }
 ```
 
-标准库的 `Option<T>`、`Result<T, E>` 就是泛型枚举，在[枚举](/guide/enums)一章已有接触。
+标准库的 `Option<T>`、`Result<T, E>` 就是泛型枚举，在[枚举](/syntax/enums)一章已有接触。
 
 ## 为何使用泛型
 
@@ -125,8 +125,8 @@ Some(5), Some("hi"), None
 
 ## 延伸阅读
 
-- [`函数`](/guide/functions) — 参数与返回类型
-- [`结构体`](/guide/structs) — `impl` 与方法
-- [`枚举`](/guide/enums) — `Option<T>`、`Result<T, E>`
-- [`集合`](/guide/collections) — `Vec<T>`、`HashMap<K, V>`
+- [`函数`](/syntax/functions) — 参数与返回类型
+- [`结构体`](/syntax/structs) — `impl` 与方法
+- [`枚举`](/syntax/enums) — `Option<T>`、`Result<T, E>`
+- [`集合`](/syntax/collections) — `Vec<T>`、`HashMap<K, V>`
 - [The Rust Book — Generics](https://doc.rust-lang.org/book/ch10-00-generics.html)

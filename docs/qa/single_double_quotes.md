@@ -20,7 +20,7 @@ let name: &str = "Rust";
 
 - 可以是任意长度，包括空字符串 `""`。
 - 内容是 UTF-8 编码的字节序列。
-- 详见语法章节：[字符串](/guide/strings)。
+- 详见语法章节：[字符串](/syntax/strings)。
 
 ## 单引号 `'...'`：字符
 
@@ -84,5 +84,5 @@ let c = s.chars().next().unwrap(); // char
 
 ## 延伸阅读
 
-- [`字符串`](/guide/strings) — `&str` 与 `String`
+- [`字符串`](/syntax/strings) — `&str` 与 `String`
 - [The Rust Book — Data Types](https://doc.rust-lang.org/book/ch03-02-data-types.html#character-type)

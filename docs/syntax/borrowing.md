@@ -103,6 +103,6 @@ slice = [2, 3, 4]
 
 ## 延伸阅读
 
-- [`所有权和移动`](/guide/ownership) — Move 与 `clone`
-- [`字符串`](/guide/strings) — `String` 与 `&str`
-- [`内存`](/guide/memory) — 栈与堆（视频讲解）
+- [`所有权和移动`](/syntax/ownership) — Move 与 `clone`
+- [`字符串`](/syntax/strings) — `String` 与 `&str`
+- [`内存`](/qa/memory) — 栈与堆（视频讲解）

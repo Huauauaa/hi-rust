@@ -143,6 +143,6 @@ destructured: Alice, 31
 
 ## 延伸阅读
 
-- [`元组`](/guide/tuples) — 匿名组合 vs 命名字段
-- [`函数`](/guide/functions) — 方法中的 `fn` 与返回值
-- [`所有权和移动`](/guide/ownership) — 结构体字段的所有权
+- [`元组`](/syntax/tuples) — 匿名组合 vs 命名字段
+- [`函数`](/syntax/functions) — 方法中的 `fn` 与返回值
+- [`所有权和移动`](/syntax/ownership) — 结构体字段的所有权

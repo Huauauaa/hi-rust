@@ -20,8 +20,8 @@ Rust 在**编译期**保证内存安全：没有垃圾回收，也无需手动 `
 
 ## 与语法章节的联系
 
-- [`定义变量`](/guide/variables) — 绑定与可变性
-- [`字符串`](/guide/strings) — `&str` 在栈上引用，`String` 在堆上分配
+- [`定义变量`](/syntax/variables) — 绑定与可变性
+- [`字符串`](/syntax/strings) — `&str` 在栈上引用，`String` 在堆上分配
 
 ## 延伸阅读
 

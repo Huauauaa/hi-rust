@@ -123,6 +123,6 @@ data = [2, 4, 6]
 
 ## 延伸阅读
 
-- [`借用`](/guide/borrowing) — `&` 与 `&mut`
-- [`数组`](/guide/arrays) — 固定长度数组
-- [`字符串`](/guide/strings) — `String` 与 `&str`
+- [`借用`](/syntax/borrowing) — `&` 与 `&mut`
+- [`数组`](/syntax/arrays) — 固定长度数组
+- [`字符串`](/syntax/strings) — `String` 与 `&str`

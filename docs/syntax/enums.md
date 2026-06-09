@@ -64,7 +64,7 @@ match msg {
 }
 ```
 
-必须覆盖所有变体，或用 `_` 兜底。详见 [`条件判断`](/guide/conditionals) 中的 `match` 基础。
+必须覆盖所有变体，或用 `_` 兜底。详见 [`条件判断`](/syntax/conditionals) 中的 `match` 基础。
 
 ## if let
 
@@ -152,6 +152,6 @@ no_num is None
 
 ## 延伸阅读
 
-- [`结构体`](/guide/structs) — 命名字段 vs 枚举变体
-- [`条件判断`](/guide/conditionals) — `match` 语法与表达式
+- [`结构体`](/syntax/structs) — 命名字段 vs 枚举变体
+- [`条件判断`](/syntax/conditionals) — `match` 语法与表达式
 - [The Rust Book — Enums](https://doc.rust-lang.org/book/ch06-00-enums.html)

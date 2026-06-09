@@ -126,5 +126,5 @@ original = hi-rust, cloned = hi-rust
 
 ## 延伸阅读
 
-- [`字符串`](/guide/strings) — `String` 与 `&str` 的区别
-- [`内存`](/guide/memory) — 栈与堆、借用（视频讲解）
+- [`字符串`](/syntax/strings) — `String` 与 `&str` 的区别
+- [`内存`](/qa/memory) — 栈与堆、借用（视频讲解）

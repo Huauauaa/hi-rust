@@ -1,41 +1,36 @@
 import { defineConfig } from 'vitepress'
 
+const syntaxItems = [
+  { text: 'Hello, World', link: '/syntax/hello_world' },
+  { text: '定义变量', link: '/syntax/variables' },
+  { text: '元组', link: '/syntax/tuples' },
+  { text: '数组', link: '/syntax/arrays' },
+  { text: '字符串', link: '/syntax/strings' },
+  { text: '所有权和移动', link: '/syntax/ownership' },
+  { text: '借用', link: '/syntax/borrowing' },
+  { text: '切片', link: '/syntax/slices' },
+  { text: '结构体', link: '/syntax/structs' },
+  { text: '枚举', link: '/syntax/enums' },
+  { text: '集合', link: '/syntax/collections' },
+  { text: '泛型', link: '/syntax/generics' },
+  { text: '运算符', link: '/syntax/operators' },
+  { text: '条件判断', link: '/syntax/conditionals' },
+  { text: '循环', link: '/syntax/loops' },
+  { text: '函数', link: '/syntax/functions' }
+]
+
+const specItems = [{ text: '命名规范', link: '/spec/naming' }]
+
+const qaItems = [
+  { text: '内存', link: '/qa/memory' },
+  { text: '函数与宏的区别', link: '/qa/function_vs_macro' },
+  { text: '单引号与双引号', link: '/qa/single_double_quotes' }
+]
+
 const sidebarItems = [
-  {
-    text: '语法',
-    items: [
-      { text: 'Hello, World', link: '/guide/hello_world' },
-      { text: '定义变量', link: '/guide/variables' },
-      { text: '元组', link: '/guide/tuples' },
-      { text: '数组', link: '/guide/arrays' },
-      { text: '字符串', link: '/guide/strings' },
-      { text: '所有权和移动', link: '/guide/ownership' },
-      { text: '借用', link: '/guide/borrowing' },
-      { text: '切片', link: '/guide/slices' },
-      { text: '结构体', link: '/guide/structs' },
-      { text: '枚举', link: '/guide/enums' },
-      { text: '集合', link: '/guide/collections' },
-      { text: '泛型', link: '/guide/generics' },
-      { text: '运算符', link: '/guide/operators' },
-      { text: '条件判断', link: '/guide/conditionals' },
-      { text: '循环', link: '/guide/loops' },
-      { text: '函数', link: '/guide/functions' }
-    ]
-  },
-  {
-    text: '规范',
-    items: [
-      { text: '命名规范', link: '/spec/naming' }
-    ]
-  },
-  {
-    text: 'Q&A',
-    items: [
-      { text: '内存', link: '/guide/memory' },
-      { text: '函数与宏的区别', link: '/guide/function_vs_macro' },
-      { text: '单引号与双引号', link: '/guide/single_double_quotes' }
-    ]
-  }
+  { text: '语法', items: syntaxItems },
+  { text: '规范', items: specItems },
+  { text: 'Q&A', items: qaItems }
 ]
 
 export default defineConfig({
@@ -51,12 +46,12 @@ export default defineConfig({
     },
     siteTitle: false,
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Issues', link: 'https://github.com/Huauauaa/hi-rust/issues' }
     ],
     sidebar: {
-      '/guide/': sidebarItems,
-      '/spec/': sidebarItems
+      '/syntax/': sidebarItems,
+      '/spec/': sidebarItems,
+      '/qa/': sidebarItems
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Huauauaa/hi-rust' }
