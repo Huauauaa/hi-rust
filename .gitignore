@@ -1,9 +1,16 @@
 node_modules/
+node_modules/*
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 
+# HyperFrames video project (source tracked; deps & render output ignored)
+rust-memory/node_modules/
+rust-memory/renders/
+rust-memory/package-lock.json
+
 # Rust build artifacts
 /target/
+**/target/
 rustc*/
 /build/
 *.exe
@@ -11,5 +18,12 @@ rustc*/
 *.pdb
 *.dSYM/
 
-# `rustc hello_world.rs` → executable with the same basename (no extension)
-/hello_world
+# `rustc *.rs` → same-basename executable at repo root (no extension).
+# Ignore all root files, then un-ignore tracked sources and directories.
+/*
+!/*/
+!/*.rs
+!/*.md
+!/*.json
+!/*.yaml
+!/.gitignore

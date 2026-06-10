@@ -3,18 +3,17 @@ layout: home
 
 hero:
   name: hi-rust
-  text: A VitePress documentation site
-  tagline: Build and publish documentation with pnpm and GitHub Pages.
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /guide/hello_world
+  text: Rust 学习笔记
+  tagline: 从语法入门，到答疑解惑。
 
 features:
-  - title: pnpm powered
-    details: Uses pnpm scripts and a lockfile for reproducible installs.
-  - title: VitePress ready
-    details: Includes a minimal documentation structure and site config.
-  - title: GitHub Pages
-    details: Publishes the generated static site with GitHub Actions.
+  - title: 语法
+    details: Hello World、变量、字符串等基础语法与示例代码。
+    link: /syntax/hello_world
+  - title: 规范
+    details: 命名、代码风格等社区约定与最佳实践。
+    link: /spec/naming
+  - title: Q&A
+    details: 所有权、借用、栈与堆等核心概念，配合讲解视频。
+    link: /qa/memory
 ---

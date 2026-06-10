@@ -34,5 +34,5 @@ Hello, world!
 ## Next steps
 
 Once this works, try changing the string inside `println!` and recompiling.
-When you are ready for larger projects, use `cargo new` to scaffold a crate with
+When you are ready for larger projects, see [包管理](/syntax/package_management) to scaffold a crate with
 dependencies and tests built in.
