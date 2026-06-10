@@ -10,6 +10,7 @@ rust-memory/package-lock.json
 
 # Rust build artifacts
 /target/
+**/target/
 rustc*/
 /build/
 *.exe

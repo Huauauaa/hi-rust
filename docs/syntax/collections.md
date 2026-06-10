@@ -37,6 +37,8 @@ for n in &mut nums { ... }        // 可变借用
 for (i, n) in nums.iter().enumerate() { ... }
 ```
 
+详见 [迭代器](/syntax/iterators) 章节。
+
 ## HashMap：键值映射
 
 `HashMap<K, V>` 存储键到值的映射，键类型须实现 `Eq` 和 `Hash`（如 `String`、`&str`、`i32`）：

@@ -126,5 +126,7 @@ original = hi-rust, cloned = hi-rust
 
 ## 延伸阅读
 
+- [`借用`](/syntax/borrowing) — 在不取得所有权的情况下使用值
+- [`智能指针`](/syntax/smart_pointers) — `Box`、`Rc` 等堆上所有权扩展
 - [`字符串`](/syntax/strings) — `String` 与 `&str` 的区别
 - [`内存`](/qa/memory) — 栈与堆、借用（视频讲解）

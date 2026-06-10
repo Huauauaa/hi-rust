@@ -125,6 +125,7 @@ Some(5), Some("hi"), None
 
 ## 延伸阅读
 
+- [类型系统](/syntax/type_system) — 标量、复合类型与转换
 - [`函数`](/syntax/functions) — 参数与返回类型
 - [`结构体`](/syntax/structs) — `impl` 与方法
 - [`枚举`](/syntax/enums) — `Option<T>`、`Result<T, E>`

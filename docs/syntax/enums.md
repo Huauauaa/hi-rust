@@ -64,7 +64,7 @@ match msg {
 }
 ```
 
-必须覆盖所有变体，或用 `_` 兜底。详见 [`条件判断`](/syntax/conditionals) 中的 `match` 基础。
+必须覆盖所有变体，或用 `_` 兜底。详见 [match 匹配](/syntax/match_patterns)。
 
 ## if let
 
@@ -76,7 +76,7 @@ if let Message::Move { x, y } = mv {
 }
 ```
 
-等价于只写一个分支的 `match`。
+等价于只写一个分支的 `match`。更多用法见 [if let 和 while let](/syntax/if_while_let)。
 
 ## impl 与方法
 
@@ -108,7 +108,7 @@ let some_num = Some(5);
 let no_num: Option<i32> = None;
 ```
 
-比空指针更安全：必须显式处理 `None`，编译器会检查是否遗漏。
+比空指针更安全：必须显式处理 `None`，编译器会检查是否遗漏。更多用法见 [错误处理](/syntax/error_handling)。
 
 ## 运行
 
@@ -153,5 +153,6 @@ no_num is None
 ## 延伸阅读
 
 - [`结构体`](/syntax/structs) — 命名字段 vs 枚举变体
-- [`条件判断`](/syntax/conditionals) — `match` 语法与表达式
+- [match 匹配](/syntax/match_patterns) — 模式、守卫与 `if let`
+- [`条件判断`](/syntax/conditionals) — `if` 与 `match` 入门
 - [The Rust Book — Enums](https://doc.rust-lang.org/book/ch06-00-enums.html)
