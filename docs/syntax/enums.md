@@ -153,6 +153,7 @@ no_num is None
 ## 延伸阅读
 
 - [`结构体`](/syntax/structs) — 命名字段 vs 枚举变体
+- [`Debug`](/syntax/debug) — 为 enum 派生 `Debug`
 - [match 匹配](/syntax/match_patterns) — 模式、守卫与 `if let`
 - [`条件判断`](/syntax/conditionals) — `if` 与 `match` 入门
 - [The Rust Book — Enums](https://doc.rust-lang.org/book/ch06-00-enums.html)

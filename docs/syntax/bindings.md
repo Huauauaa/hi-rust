@@ -135,4 +135,5 @@ point.x = 11
 - [`元组`](/syntax/tuples) — 元组类型与解构
 - [`结构体`](/syntax/structs) — 字段与 struct 模式
 - [`枚举`](/syntax/enums) — enum 变体绑定
+- [ref 解构有什么用？](/qa/ref_destructuring) — 何时用 `ref` / `ref mut`
 - [The Rust Book — Variables](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)

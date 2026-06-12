@@ -104,5 +104,6 @@ slice = [2, 3, 4]
 ## 延伸阅读
 
 - [`所有权和移动`](/syntax/ownership) — Move 与 `clone`
+- [`生命周期`](/syntax/lifetimes) — 引用有效范围与 `'a`
 - [`字符串`](/syntax/strings) — `String` 与 `&str`
 - [`内存`](/qa/memory) — 栈与堆（视频讲解）

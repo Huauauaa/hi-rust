@@ -142,6 +142,8 @@ invalid age: invalid digit found in string
 ## 延伸阅读
 
 - [`枚举`](/syntax/enums) — `Option` 的定义与 `match`
+- [`Debug`](/syntax/debug) — `Result` 的 `{:?}` 输出
+- [`Display`](/syntax/display) — 错误信息的用户可读展示
 - [`条件判断`](/syntax/conditionals) — `match`、`if let`
 - [IO](/syntax/io) — `io::Result` 与 `?`
 - [The Rust Book — Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)

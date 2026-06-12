@@ -11,10 +11,14 @@ const syntaxItems = [
   { text: '类型转换', link: '/syntax/type_conversion' },
   { text: '所有权和移动', link: '/syntax/ownership' },
   { text: '借用', link: '/syntax/borrowing' },
+  { text: '生命周期', link: '/syntax/lifetimes' },
   { text: '智能指针', link: '/syntax/smart_pointers' },
   { text: '切片', link: '/syntax/slices' },
   { text: '结构体', link: '/syntax/structs' },
   { text: '枚举', link: '/syntax/enums' },
+  { text: 'Debug', link: '/syntax/debug' },
+  { text: '自定义 Debug', link: '/syntax/debug_custom' },
+  { text: 'Display', link: '/syntax/display' },
   { text: '错误处理', link: '/syntax/error_handling' },
   { text: '集合', link: '/syntax/collections' },
   { text: '迭代器', link: '/syntax/iterators' },
@@ -40,7 +44,8 @@ const specItems = [{ text: '命名规范', link: '/spec/naming' }]
 const qaItems = [
   { text: '内存', link: '/qa/memory' },
   { text: '函数与宏的区别', link: '/qa/function_vs_macro' },
-  { text: '单引号与双引号', link: '/qa/single_double_quotes' }
+  { text: '单引号与双引号', link: '/qa/single_double_quotes' },
+  { text: 'ref 解构有什么用', link: '/qa/ref_destructuring' }
 ]
 
 const sidebarItems = [
